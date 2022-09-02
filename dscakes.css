@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, serif;
+  font-size: 100%;
+  line-height: 1.75em;
+}
+
+h1 {
+  font: bold 2.5em "Marko One", Georgia, serif;
+  color: rgb(253, 253, 191);
+  text-shadow: .05em .05em .1em lightslategray;
+}
+
+h2 {
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  color: olive;
+}
+
+h1,
+h2,
+#info {
+  text-align: center;
+}
+
+#customcakes {
+  text-align: center;
+}
+
+#cakesmenu {
+  text-align: center;
+}
+
+#cookiesmenu {
+  text-align: center;
+}
+
+#weddingandevents {
+  text-align: center;
+}
+
+#custome h2+p {
+  text-align: center;
+  font-style: italic;
+}
+
+/* link styles */
+a:link,
+a:visited {
+  color: #DC6903;
+}
+
+a:focus,
+a:hover,
+a:active {
+  color: #F9AB33;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1px dotted;
+  padding-bottom: .2em;
+}
+
+
+
+/* header styles */
+header {
+  color: white;
+  background: url(banner.png) no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  height: 25em;
+
+}
+
+header p {
+  font-style: italic;
+  font-size: 1.2em;
+}
+
+/* nav styles */
+
+nav ul li a:link,
+nav ul li a:visited {
+  color: #f8eec2;
+}
+
+nav ul li a:focus,
+nav ul li a:hover,
+nav ul li a:active {
+  color: #fff;
+}
+
+nav ul li {
+  font-size: .8em;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
+/* list */
+
+#cookiesmenu {
+  text-align: center;
+}
+
+dt {
+  font-weight: bold;
+  color: sienna;
+
+}
+
+strong {
+  font-style: italic;
+}
+
+dt strong {
+  color: tomato;
+}
+
+.price {
+  font-family: Georgia, serif;
+  font-style: italic;
+  color: gray;
+
+}
+
+/* main image */
+img {
+  width: 700px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+/* tables */
+td,
+th {
+  border: 1px solid #ccc;
+}
+
+table {
+  border: 1px solid black;
+}
+
+/* aside "hours" styles */
+aside {
+  background-color: #F6F3ED;
+  padding: 1em;
+  padding-left: 45px;
+}
+
+/* footer styles */
+footer {
+  padding: 1em;
+  font-family: verdana, sans-serif;
+  background-color: #f1e2ef;
+  text-align: center;
+}
+
+#video {
+  display: block;
+  margin: 0 auto;
+}
+
+/* CSS Document */
